@@ -1,5 +1,5 @@
 <div align="center">
-
+<img width="1200" height="475" alt="GHBanner" src="Screenshots.png" />
 </div>
 
 🛡️ SOC Sentinel: Automated Security Log Analyzer & Threat Detection Engine
