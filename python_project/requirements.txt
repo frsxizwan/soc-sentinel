@@ -1,0 +1,9 @@
+# Automated Security Log Analyzer & Threat Detection System
+# Requirements File
+#
+# This project is designed to be highly portable, running entirely on the Python Standard Library
+# (3.8+) without external dependencies, making it ideal for incident response triage in restricted environments.
+#
+# Optional dependencies for advanced data visualization and analyst use:
+matplotlib>=3.5.0
+pandas>=1.4.0

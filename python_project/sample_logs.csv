@@ -1,0 +1,31 @@
+timestamp,username,ip_address,event_type,status,details,is_admin
+2026-07-01T09:00:15Z,a.vance,192.168.10.25,login,success,Desktop workstation login,false
+2026-07-01T09:05:22Z,a.vance,192.168.10.25,file_access,success,Accessed /share/marketing/q3_plan.pdf,false
+2026-07-01T10:15:00Z,db_sync,10.0.5.14,database_query,success,Synchronized core transaction table,false
+2026-07-01T11:00:00Z,sec_engineer,192.168.10.15,login,success,SOC SIEM workstation connection,true
+2026-07-01T11:15:30Z,sec_engineer,192.168.10.15,configuration_change,success,Updated firewall log forwarding rules,true
+2026-07-01T14:20:01Z,admin,198.51.100.42,login,failed,Invalid password credentials,true
+2026-07-01T14:20:12Z,admin,198.51.100.42,login,failed,Invalid password credentials,true
+2026-07-01T14:20:25Z,admin,198.51.100.42,login,failed,Invalid password credentials,true
+2026-07-01T14:20:38Z,admin,198.51.100.42,login,failed,Invalid password credentials,true
+2026-07-01T14:20:50Z,admin,198.51.100.42,login,failed,Invalid password credentials,true
+2026-07-01T14:21:05Z,admin,198.51.100.42,login,success,Successful login after multiple failures,true
+2026-07-01T15:30:00Z,m.rogers,192.168.10.82,login,success,Workstation login (internal subnet),false
+2026-07-01T15:35:12Z,m.rogers,45.223.10.12,login,success,Login from external IP (Berlin DE VPN),false
+2026-07-01T15:38:00Z,m.rogers,45.223.10.12,file_access,success,Read /share/financials/salaries.xlsx,false
+2026-07-01T16:45:10Z,test_user,192.168.12.110,login,success,Standard login,false
+2026-07-01T16:46:15Z,test_user,192.168.12.110,command_execution,failed,Attempted sudo access to /etc/shadow without privilege,false
+2026-07-01T16:47:00Z,test_user,192.168.12.110,file_access,failed,Unauthorized read on /var/log/secure,false
+2026-07-01T17:01:22Z,unknown_svc,185.220.101.5,login,failed,Authentication failure - username not found,false
+2026-07-01T17:01:35Z,root,185.220.101.5,login,failed,Authentication failure - incorrect password,true
+2026-07-01T17:01:50Z,root,185.220.101.5,login,failed,Authentication failure - incorrect password,true
+2026-07-01T17:02:10Z,root,185.220.101.5,login,failed,Authentication failure - incorrect password,true
+2026-07-01T17:02:30Z,root,185.220.101.5,login,failed,Authentication failure - incorrect password,true
+2026-07-01T02:14:10Z,b.jones,192.168.10.55,login,success,Workstation login (Off-hours),false
+2026-07-01T03:45:00Z,service_agent,10.0.5.20,database_query,success,Regular backup agent execution,false
+2026-07-01T04:12:05Z,a.vance,198.51.100.99,login,success,Domain Controller administrator console login,true
+2026-07-01T18:22:15Z,system_admin,192.168.10.5,login,success,Active Directory synchronization,true
+2026-07-01T18:30:10Z,system_admin,192.168.10.5,configuration_change,success,Modified domain password policy,true
+2026-07-01T19:00:00Z,t.clark,192.168.10.102,login,success,Workstation login,false
+2026-07-01T19:02:45Z,t.clark,192.168.10.102,file_access,success,Read /share/it/passwords.txt.tmp,false
+2026-07-01T19:05:00Z,t.clark,192.168.10.102,command_execution,success,Uploaded local script to domain backup share,false

@@ -1,0 +1,6 @@
+{
+  "name": "Automated Security Log Analyzer & Threat Detection System",
+  "description": "An interactive SOC Analyst dashboard and Python simulation project for automated security log parsing, threat detection, risk scoring, and professional incident reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
